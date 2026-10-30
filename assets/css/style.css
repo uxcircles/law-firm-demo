@@ -431,4 +431,6 @@ h3 .en { font-size: .78em; }
   .lang-switch a { min-width: 26px; padding: 0 4px; font-size: .8rem; }
   .brand-mark { width: 34px; height: 34px; }
 }
+/* English: Latin serif first, so punctuation like ’ isn't drawn with the full-width CJK glyph */
+:lang(en) { --serif: "Noto Serif", "Noto Serif TC", Georgia, serif; }
 :lang(zh-Hans) { --serif: "Noto Serif SC", "Source Serif 4", Georgia, "Songti SC", serif; --sans: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; }

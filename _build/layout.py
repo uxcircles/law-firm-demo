@@ -57,7 +57,6 @@ ICON = {
     "briefcase": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12.5h18M10.5 12.5v1.5h3v-1.5"/></svg>',
     "pen": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h9l5 5v13H5z"/><path d="M14 3v5h5M8.5 13h7M8.5 16.5h5"/></svg>',
     "menu": '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg>',
-    "globe": '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z"/></svg>',
 }
 
 
@@ -132,7 +131,7 @@ def page(rel, *, key, title, description, body):
       <img class="brand-mark" src="{r}assets/img/logo.svg" alt="">
       <span class="brand-text"><span class="brand-name">{L("廣東話律師 Kelvin Chan", "廣東話律師 Kelvin Chan", "Kelvin Chan, Solicitor")}</span><span class="brand-sub">{L("倫敦 · 廣東話法律服務", "倫敦 · 廣東話法律服務", "Cantonese Speaking Solicitor · London")}</span></span>
     </a>
-    <div class="lang-switch" role="navigation" aria-label="Language">{ICON["globe"]}@@LANGSWITCH@@</div>
+    <div class="lang-switch" role="navigation" aria-label="Language">@@LANGSWITCH@@</div>
     <button class="nav-toggle" aria-label="{L("選單", "選單", "Menu")}" aria-expanded="false">{ICON["menu"]}</button>
     <nav class="nav" aria-label="{L("主選單", "主選單", "Main")}">
       {nav}

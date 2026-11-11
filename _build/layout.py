@@ -122,7 +122,7 @@ def page(rel, *, key, title, description, body):
 <div class="concept-bar" role="note">
   <div class="container concept-inner">
     <p><span class="concept-tag">{L("範例", "範例", "Demo")}</span><span class="concept-long">{L("虛構範例：網站中的律師、案例與收費均為虛構，WhatsApp 會聯絡 UX CIRCLES，不提供法律服務。", "虛構範例：網站入面嘅律師、案例同收費都係虛構，WhatsApp 會聯絡 UX CIRCLES，唔提供法律服務。", "Fictional demo: the solicitor, cases and fees are made up. WhatsApp reaches UX CIRCLES, not a law firm.")}</span></p>
-    <a href="https://ux-circles.com/web" target="_blank" rel="noopener"><span class="concept-by">{L("設計：", "設計：", "Designed by ")}</span><strong>UX CIRCLES</strong> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+    <a href="https://ux-circles.com/professionals" target="_blank" rel="noopener"><span class="concept-by">{L("設計：", "設計：", "Designed by ")}</span><strong>UX CIRCLES</strong> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
   </div>
 </div>
 <header class="site-header">
@@ -181,7 +181,7 @@ def page(rel, *, key, title, description, body):
       <p>{L("【示範文字】此處為律師事務所的監管資料：律師姓名、SRA 編號、專業責任保險及投訴處理程序。本網站為 UX CIRCLES 製作的虛構設計範例，人物、案例及收費均為虛構，不構成法律意見，亦不提供法律服務。",
              "【示範文字】呢度係律師事務所嘅監管資料位置：律師姓名、SRA 編號、專業責任保險同投訴處理程序。本網站係 UX CIRCLES 製作嘅虛構設計範例，人物、案例同收費都係虛構，唔構成法律意見，亦唔提供法律服務。",
              "[Sample text] A real firm would list its regulatory details here: solicitor names, SRA number, professional indemnity insurance and complaints procedure. This website is a fictional design demo by UX CIRCLES. The people, cases and fees are made up; nothing here is legal advice and no legal services are offered.")}</p>
-      <p>© <span id="year">2026</span> UX CIRCLES · <a href="{here}terms.html">{L("條款及細則", "條款及細則", "Terms &amp; conditions")}</a><br><span class="concept-note">{L("虛構設計範例，由", "虛構設計範例，由", "Fictional design demo by")} <a href="https://ux-circles.com/web" target="_blank" rel="noopener">UX CIRCLES</a>{L(" 設計", " 設計", "")}</span></p>
+      <p>© <span id="year">2026</span> UX CIRCLES · <a href="{here}terms.html">{L("條款及細則", "條款及細則", "Terms &amp; conditions")}</a><br><span class="concept-note">{L("虛構設計範例，由", "虛構設計範例，由", "Fictional design demo by")} <a href="https://ux-circles.com/professionals" target="_blank" rel="noopener">UX CIRCLES</a>{L(" 設計", " 設計", "")}</span></p>
     </div>
   </div>
 </footer>

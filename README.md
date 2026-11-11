@@ -1,6 +1,6 @@
 # Law firm website demo — UX CIRCLES
 
-A fictional law firm website built by [UX CIRCLES](https://ux-circles.com/web) as a design sample.
+A fictional law firm website built by [UX CIRCLES](https://ux-circles.com/professionals) as a design sample.
 **Kelvin Chan (陳嘉信) and every case, fee and article on this site are made up.** It is not the
 website of any real solicitor or law firm, and no legal services are offered through it.
 

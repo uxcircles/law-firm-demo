@@ -606,7 +606,7 @@ def terms():
     <aside class="aside">
       <div class="aside-card"><h3>{L("網站設計", "網站設計", "Website design")}</h3>
         <p>{L("這是 UX CIRCLES 的律師網站設計範例。想為您的事務所建立類似網站？", "呢個係 UX CIRCLES 嘅律師網站設計範例。想幫你間律師行整個類似嘅網站？", "This is a law firm website demo by UX CIRCLES. Want a site like this for your firm?")}</p>
-        <a class="btn btn-outline" href="https://ux-circles.com/web" target="_blank" rel="noopener">ux-circles.com {ICON["arrow"]}</a>
+        <a class="btn btn-outline" href="https://ux-circles.com/professionals" target="_blank" rel="noopener">ux-circles.com {ICON["arrow"]}</a>
       </div>
     </aside>
   </div>
